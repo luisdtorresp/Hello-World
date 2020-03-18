@@ -1,0 +1,52 @@
+html body{
+    font-family: sans-serif;
+    background-color: #1d1919;
+    color: #0acf03;
+    margin: 0px;
+}
+
+header{
+    display: flex;
+    flex-flow: row wrap;
+    border-bottom: 4px solid whitesmoke;
+    border-radius: 4em;
+    justify-content: flex-start;
+    font-family: serif;
+}
+
+#nombre{
+    text-align: center;
+    align-self: center;
+}   
+
+header img{
+    max-height: 4em;
+    margin: 1em 3em;
+    border-radius: 8em;
+    
+}
+
+.title:hover{
+    background-color: #0acf03;
+    color: black;
+    border-radius: 4em;
+}
+
+article{
+    margin: 2em;
+    padding: 1.5em;
+    text-align: justify;
+}
+
+img{
+    max-width: 40em;
+    border-radius: 1.5em;
+    
+}
+
+footer, footer a{
+    color: lightgray;
+    font-style: italic;
+    text-decoration: none;
+    text-align: center;
+}
